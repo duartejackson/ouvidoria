@@ -1,0 +1,14 @@
+/vendor
+/tmp
+/logs
+/node_modules
+/.env
+/server.log
+
+/vendor
+/tmp
+/logs
+/node_modules
+/.env
+/server.log
+config/app_local.php

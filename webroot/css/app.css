@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #0d6efd;
+  --primary-dark: #111827;
+  --bg-light: #f8fafc;
+  --text-muted: #6b7280;
+  --border-color: #e2e8f0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-light);
+  color: #333;
+}
+
+.text-primary-dark {
+  color: var(--primary-dark) !important;
+}
+
+.card-shadow {
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.08);
+}
+
+.custom-border {
+  border: 1px solid var(--border-color) !important;
+}
+
+.header-bg {
+  background-color: #ffffff;
+}
+
+.badge-official {
+  background-color: #f0fdf4;
+  color: #16a34a;
+  padding: 0.5rem 1rem;
+  border-radius: 50rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Feature Box */
+.feature-box {
+  background-color: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  height: 100%;
+}
+
+.icon-wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.icon-wrapper.green {
+  background-color: #dcfce7;
+  color: #16a34a;
+}
+
+.icon-wrapper.blue {
+  background-color: #e0f2fe;
+  color: #0284c7;
+}
+
+/* Tabs */
+.custom-tabs {
+  border-bottom: 1px solid var(--border-color);
+}
+.custom-tabs .nav-link {
+  color: var(--text-muted);
+  border: none;
+  background: transparent;
+  padding-bottom: 1rem;
+  position: relative;
+}
+.custom-tabs .nav-link.active {
+  color: #0ea5e9 !important;
+  font-weight: 600;
+}
+.custom-tabs .nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #0ea5e9;
+}
+
+/* Form Inputs */
+.custom-input {
+  background-color: #f8fafc;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+}
+.custom-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(14, 165, 233, 0.25);
+  background-color: #ffffff;
+  border: 1px solid #0ea5e9 !important;
+}
+
+/* Upload Zone */
+.upload-zone {
+  border: 1px dashed var(--text-muted);
+  background-color: #f8fafc;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.upload-zone:hover {
+  background-color: #f1f5f9;
+  border-color: #cbd5e1;
+}
+
+.btn-primary-dark {
+  background-color: var(--primary-dark);
+  color: white;
+  border: none;
+}
+.btn-primary-dark:hover {
+  background-color: #1f2937;
+  color: white;
+}

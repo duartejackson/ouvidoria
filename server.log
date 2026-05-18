@@ -1,0 +1,213 @@
+
+Welcome to CakePHP v5.3.5 Console
+-------------------------------------------------------------------------------
+App : src
+Path: /app/src/
+DocumentRoot: /app/webroot
+Ini Path:
+-------------------------------------------------------------------------------
+php server is running at http://localhost:8765/
+You can exit with `CTRL-C`
+[Mon May 18 15:25:27 2026] PHP 8.3.6 Development Server (http://localhost:8765) started
+[Mon May 18 15:33:47 2026] [::1]:46280 Accepted
+[Mon May 18 15:33:48 2026] [::1]:46280 Closing
+[Mon May 18 15:33:48 2026] [::1]:46286 Accepted
+[Mon May 18 15:33:48 2026] [::1]:46288 Accepted
+[Mon May 18 15:33:48 2026] [::1]:46300 Accepted
+[Mon May 18 15:33:48 2026] [::1]:46316 Accepted
+[Mon May 18 15:33:48 2026] [::1]:46286 [200]: GET /css/bootstrap.min.css
+[Mon May 18 15:33:48 2026] [::1]:46288 [200]: GET /css/bootstrap-icons.css
+[Mon May 18 15:33:48 2026] [::1]:46300 [200]: GET /css/app.css
+[Mon May 18 15:33:48 2026] [::1]:46316 Closing
+[Mon May 18 15:33:48 2026] [::1]:46286 Closing
+[Mon May 18 15:33:48 2026] [::1]:46288 Closing
+[Mon May 18 15:33:48 2026] [::1]:46300 Closing
+[Mon May 18 15:33:48 2026] [::1]:46328 Accepted
+[Mon May 18 15:33:48 2026] [::1]:46328 Closing
+[Mon May 18 15:33:48 2026] [::1]:46334 Accepted
+[Mon May 18 15:33:48 2026] [::1]:46334 [200]: GET /font/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Mon May 18 15:33:48 2026] [::1]:46334 Closing
+[Mon May 18 15:33:48 2026] [::1]:46338 Accepted
+[Mon May 18 15:33:48 2026] [::1]:46340 Accepted
+[Mon May 18 15:33:48 2026] [::1]:46356 Accepted
+[Mon May 18 15:33:48 2026] [::1]:46358 Accepted
+[Mon May 18 15:33:48 2026] [::1]:46364 Accepted
+[Mon May 18 15:33:48 2026] [::1]:46338 Closing
+[Mon May 18 15:33:48 2026] [::1]:46340 Closing
+[Mon May 18 15:33:48 2026] [::1]:46356 Closing
+[Mon May 18 15:33:48 2026] [::1]:46358 Closing
+[Mon May 18 15:33:48 2026] [::1]:46364 Closing
+[Mon May 18 15:33:49 2026] [::1]:46380 Accepted
+[Mon May 18 15:33:49 2026] [::1]:46396 Accepted
+[Mon May 18 15:33:49 2026] [::1]:46404 Accepted
+[Mon May 18 15:33:49 2026] [::1]:46406 Accepted
+[Mon May 18 15:33:49 2026] [::1]:46410 Accepted
+[Mon May 18 15:33:49 2026] [::1]:46424 Accepted
+[Mon May 18 15:33:49 2026] [::1]:46380 Closing
+[Mon May 18 15:33:49 2026] [::1]:46396 Closing
+[Mon May 18 15:33:49 2026] [::1]:46404 Closing
+[Mon May 18 15:33:49 2026] [::1]:46406 Closing
+[Mon May 18 15:33:49 2026] [::1]:46410 Closing
+[Mon May 18 15:33:49 2026] [::1]:46424 Closing
+[Mon May 18 15:33:49 2026] [::1]:46428 Accepted
+[Mon May 18 15:33:49 2026] [::1]:46438 Accepted
+[Mon May 18 15:33:49 2026] [::1]:46428 Closing
+[Mon May 18 15:33:49 2026] [::1]:46454 Accepted
+[Mon May 18 15:33:49 2026] [::1]:46438 Closing
+[Mon May 18 15:33:49 2026] [::1]:46466 Accepted
+[Mon May 18 15:33:49 2026] [::1]:46454 Closing
+[Mon May 18 15:33:49 2026] [::1]:46468 Accepted
+[Mon May 18 15:33:49 2026] [::1]:46466 Closing
+[Mon May 18 15:33:49 2026] [::1]:46468 Closing
+[Mon May 18 15:34:59 2026] [::1]:53714 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53714 Closing
+[Mon May 18 15:34:59 2026] [::1]:53726 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53742 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53754 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53758 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53726 [200]: GET /css/bootstrap.min.css
+[Mon May 18 15:34:59 2026] [::1]:53742 [200]: GET /css/bootstrap-icons.css
+[Mon May 18 15:34:59 2026] [::1]:53754 [200]: GET /css/app.css
+[Mon May 18 15:34:59 2026] [::1]:53758 Closing
+[Mon May 18 15:34:59 2026] [::1]:53726 Closing
+[Mon May 18 15:34:59 2026] [::1]:53742 Closing
+[Mon May 18 15:34:59 2026] [::1]:53754 Closing
+[Mon May 18 15:34:59 2026] [::1]:53764 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53764 Closing
+[Mon May 18 15:34:59 2026] [::1]:53776 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53776 [200]: GET /font/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Mon May 18 15:34:59 2026] [::1]:53776 Closing
+[Mon May 18 15:34:59 2026] [::1]:53778 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53792 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53804 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53820 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53830 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53778 Closing
+[Mon May 18 15:34:59 2026] [::1]:53792 Closing
+[Mon May 18 15:34:59 2026] [::1]:53804 Closing
+[Mon May 18 15:34:59 2026] [::1]:53820 Closing
+[Mon May 18 15:34:59 2026] [::1]:53830 Closing
+[Mon May 18 15:34:59 2026] [::1]:53842 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53856 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53864 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53868 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53870 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53878 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53842 Closing
+[Mon May 18 15:34:59 2026] [::1]:53856 Closing
+[Mon May 18 15:34:59 2026] [::1]:53864 Closing
+[Mon May 18 15:34:59 2026] [::1]:53868 Closing
+[Mon May 18 15:34:59 2026] [::1]:53870 Closing
+[Mon May 18 15:34:59 2026] [::1]:53878 Closing
+[Mon May 18 15:34:59 2026] [::1]:53882 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53894 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53882 Closing
+[Mon May 18 15:34:59 2026] [::1]:53908 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53894 Closing
+[Mon May 18 15:34:59 2026] [::1]:53924 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53908 Closing
+[Mon May 18 15:34:59 2026] [::1]:53926 Accepted
+[Mon May 18 15:34:59 2026] [::1]:53924 Closing
+[Mon May 18 15:34:59 2026] [::1]:53926 Closing
+[Mon May 18 15:36:37 2026] [::1]:55086 Accepted
+[Mon May 18 15:36:37 2026] [::1]:55086 Closing
+[Mon May 18 15:37:57 2026] [::1]:43068 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43068 Closing
+[Mon May 18 15:37:57 2026] [::1]:43082 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43090 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43096 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43106 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43082 [200]: GET /css/bootstrap.min.css
+[Mon May 18 15:37:57 2026] [::1]:43090 [200]: GET /css/bootstrap-icons.css
+[Mon May 18 15:37:57 2026] [::1]:43096 [200]: GET /css/app.css
+[Mon May 18 15:37:57 2026] [::1]:43106 Closing
+[Mon May 18 15:37:57 2026] [::1]:43082 Closing
+[Mon May 18 15:37:57 2026] [::1]:43090 Closing
+[Mon May 18 15:37:57 2026] [::1]:43096 Closing
+[Mon May 18 15:37:57 2026] [::1]:43118 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43118 Closing
+[Mon May 18 15:37:57 2026] [::1]:43128 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43128 [200]: GET /font/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Mon May 18 15:37:57 2026] [::1]:43128 Closing
+[Mon May 18 15:37:57 2026] [::1]:43138 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43144 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43150 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43160 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43166 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43138 Closing
+[Mon May 18 15:37:57 2026] [::1]:43144 Closing
+[Mon May 18 15:37:57 2026] [::1]:43150 Closing
+[Mon May 18 15:37:57 2026] [::1]:43160 Closing
+[Mon May 18 15:37:57 2026] [::1]:43166 Closing
+[Mon May 18 15:37:57 2026] [::1]:43172 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43176 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43186 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43188 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43190 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43196 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43172 Closing
+[Mon May 18 15:37:57 2026] [::1]:43176 Closing
+[Mon May 18 15:37:57 2026] [::1]:43186 Closing
+[Mon May 18 15:37:57 2026] [::1]:43188 Closing
+[Mon May 18 15:37:57 2026] [::1]:43190 Closing
+[Mon May 18 15:37:57 2026] [::1]:43196 Closing
+[Mon May 18 15:37:57 2026] [::1]:43210 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43220 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43210 Closing
+[Mon May 18 15:37:57 2026] [::1]:43230 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43220 Closing
+[Mon May 18 15:37:57 2026] [::1]:43238 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43230 Closing
+[Mon May 18 15:37:57 2026] [::1]:43246 Accepted
+[Mon May 18 15:37:57 2026] [::1]:43238 Closing
+[Mon May 18 15:37:58 2026] [::1]:43246 Closing
+[Mon May 18 15:38:54 2026] [::1]:38566 Accepted
+[Mon May 18 15:38:54 2026] [::1]:38566 Closing
+[Mon May 18 15:38:54 2026] [::1]:38580 Accepted
+[Mon May 18 15:38:54 2026] [::1]:38584 Accepted
+[Mon May 18 15:38:54 2026] [::1]:38592 Accepted
+[Mon May 18 15:38:54 2026] [::1]:38608 Accepted
+[Mon May 18 15:38:54 2026] [::1]:38580 [200]: GET /css/bootstrap.min.css
+[Mon May 18 15:38:54 2026] [::1]:38584 [200]: GET /css/bootstrap-icons.css
+[Mon May 18 15:38:54 2026] [::1]:38592 [200]: GET /css/app.css
+[Mon May 18 15:38:54 2026] [::1]:38580 Closing
+[Mon May 18 15:38:54 2026] [::1]:38584 Closing
+[Mon May 18 15:38:54 2026] [::1]:38592 Closing
+[Mon May 18 15:38:54 2026] [::1]:38608 Closing
+[Mon May 18 15:38:54 2026] [::1]:38622 Accepted
+[Mon May 18 15:38:54 2026] [::1]:38622 Closing
+[Mon May 18 15:38:55 2026] [::1]:38632 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38632 [200]: GET /font/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Mon May 18 15:38:55 2026] [::1]:38632 Closing
+[Mon May 18 15:38:55 2026] [::1]:38636 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38650 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38652 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38660 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38668 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38636 Closing
+[Mon May 18 15:38:55 2026] [::1]:38650 Closing
+[Mon May 18 15:38:55 2026] [::1]:38652 Closing
+[Mon May 18 15:38:55 2026] [::1]:38660 Closing
+[Mon May 18 15:38:55 2026] [::1]:38668 Closing
+[Mon May 18 15:38:55 2026] [::1]:38674 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38676 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38684 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38686 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38702 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38718 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38674 Closing
+[Mon May 18 15:38:55 2026] [::1]:38676 Closing
+[Mon May 18 15:38:55 2026] [::1]:38684 Closing
+[Mon May 18 15:38:55 2026] [::1]:38686 Closing
+[Mon May 18 15:38:55 2026] [::1]:38702 Closing
+[Mon May 18 15:38:55 2026] [::1]:38718 Closing
+[Mon May 18 15:38:55 2026] [::1]:38724 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38730 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38724 Closing
+[Mon May 18 15:38:55 2026] [::1]:38742 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38730 Closing
+[Mon May 18 15:38:55 2026] [::1]:38750 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38742 Closing
+[Mon May 18 15:38:55 2026] [::1]:38762 Accepted
+[Mon May 18 15:38:55 2026] [::1]:38750 Closing
+[Mon May 18 15:38:55 2026] [::1]:38762 Closing
