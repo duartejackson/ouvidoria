@@ -80,14 +80,38 @@
                 <?= $this->Form->end() ?>
             </div>
 
-            <!-- Acesso Restrito Tab (Placeholder) -->
+            <!-- Acesso Restrito Tab -->
             <div class="tab-pane fade" id="acesso-restrito" role="tabpanel" aria-labelledby="restrito-tab">
-                <div class="text-center py-5">
-                    <i class="bi bi-lock-fill fs-1 text-muted mb-3 d-block"></i>
-                    <h5 class="fw-bold text-dark mb-2">Área do Servidor</h5>
-                    <p class="text-muted small mb-4">Acesso exclusivo para servidores autorizados da Ouvidoria Municipal.</p>
-                    <button class="btn btn-outline-secondary px-4 py-2">Fazer Login</button>
+                <div class="mb-4">
+                    <h5 class="fw-bold text-dark mb-3">Acesso Restrito</h5>
+                    <p class="text-muted small">Área exclusiva para servidores e administradores da Ouvidoria Municipal.</p>
                 </div>
+
+                <?= $this->Form->create(null) ?>
+                    <div class="mb-4">
+                        <label class="form-label fw-bold small text-dark mb-2">E-mail ou Matrícula <span class="text-danger">*</span></label>
+                        <?= $this->Form->control('login', ['label' => false, 'class' => 'form-control custom-input border-0', 'placeholder' => 'Informe seu usuário de acesso']) ?>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <label class="form-label fw-bold small text-dark mb-0">Senha <span class="text-danger">*</span></label>
+                            <a href="#" class="text-primary small text-decoration-none" style="font-size: 0.8rem;">Esqueceu a senha?</a>
+                        </div>
+                        <?= $this->Form->control('password', ['type' => 'password', 'label' => false, 'class' => 'form-control custom-input border-0', 'placeholder' => '••••••••']) ?>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100 py-3 rounded-2 fw-medium mt-2 d-flex align-items-center justify-content-center gap-2" style="font-size: 0.95rem;">
+                        Entrar no Sistema <i class="bi bi-box-arrow-in-right"></i>
+                    </button>
+
+                    <div class="text-center mt-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-light rounded-circle mb-3" style="width: 48px; height: 48px;">
+                            <i class="bi bi-shield-lock text-muted fs-4"></i>
+                        </div>
+                        <p class="text-muted small mb-0" style="font-size: 0.75rem;">Acesso monitorado. Tentativas não autorizadas serão registradas.</p>
+                    </div>
+                <?= $this->Form->end() ?>
             </div>
         </div>
     </div>
