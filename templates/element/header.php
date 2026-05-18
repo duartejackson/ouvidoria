@@ -11,7 +11,6 @@
 
     <div class="d-none d-lg-flex gap-4">
         <a href="#" class="nav-link active fw-medium" style="font-size: 0.9rem; color: #1a1a1a;">Início</a>
-        <a href="#" class="nav-link text-muted fw-medium" style="font-size: 0.9rem;">Consultar Chamado</a>
         <a href="#" class="nav-link text-muted fw-medium" style="font-size: 0.9rem;">Estatísticas</a>
         <a href="#" class="nav-link text-muted fw-medium" style="font-size: 0.9rem;">FAQ</a>
     </div>
