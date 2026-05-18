@@ -24,7 +24,22 @@
                         </div>
                         <div class="col-md-6">
                             <label class="form-label fw-bold small text-dark mb-2">Identificação <span class="text-danger">*</span></label>
-                            <?= $this->Form->select('identificacao', ['Quero me identificar' => 'Quero me identificar', 'Anônimo' => 'Anônimo'], ['class' => 'form-select custom-input border-0 text-secondary']) ?>
+                            <?= $this->Form->select('identificacao', ['Quero me identificar' => 'Quero me identificar', 'Anônimo' => 'Anônimo'], ['empty' => 'Selecione...', 'class' => 'form-select custom-input border-0 text-secondary', 'id' => 'identificacao-select']) ?>
+                        </div>
+                    </div>
+
+                    <div id="identificacao-fields" class="row g-4 mb-4 d-none">
+                        <div class="col-md-12">
+                            <label class="form-label fw-bold small text-dark mb-2">Nome <span class="text-danger">*</span></label>
+                            <?= $this->Form->control('nome', ['label' => false, 'class' => 'form-control custom-input border-0', 'placeholder' => 'Seu nome completo']) ?>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold small text-dark mb-2">CPF <span class="text-danger">*</span></label>
+                            <?= $this->Form->control('cpf', ['label' => false, 'class' => 'form-control custom-input border-0', 'placeholder' => '000.000.000-00']) ?>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold small text-dark mb-2">E-mail <span class="text-danger">*</span></label>
+                            <?= $this->Form->control('email', ['type' => 'email', 'label' => false, 'class' => 'form-control custom-input border-0', 'placeholder' => 'seu@email.com']) ?>
                         </div>
                     </div>
 
@@ -116,3 +131,27 @@
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var selectElement = document.getElementById('identificacao-select');
+    var fieldsContainer = document.getElementById('identificacao-fields');
+    var nomeInput = document.querySelector('input[name="nome"]');
+    var cpfInput = document.querySelector('input[name="cpf"]');
+    var emailInput = document.querySelector('input[name="email"]');
+
+    selectElement.addEventListener('change', function() {
+        if (this.value === 'Quero me identificar') {
+            fieldsContainer.classList.remove('d-none');
+            nomeInput.required = true;
+            cpfInput.required = true;
+            emailInput.required = true;
+        } else {
+            fieldsContainer.classList.add('d-none');
+            nomeInput.required = false;
+            cpfInput.required = false;
+            emailInput.required = false;
+        }
+    });
+});
+</script>
