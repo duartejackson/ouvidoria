@@ -10,8 +10,8 @@
     </div>
 
     <div class="d-none d-lg-flex gap-4">
-        <a href="#" class="nav-link active fw-medium" style="font-size: 0.9rem; color: #1a1a1a;">Início</a>
-        <a href="#" class="nav-link text-muted fw-medium" style="font-size: 0.9rem;">Estatísticas</a>
+        <a href="/" class="nav-link <?= $this->request->getParam('pass')[0] ?? '' !== 'estatisticas' ? 'active text-dark' : 'text-muted' ?> fw-medium" style="font-size: 0.9rem;">Início</a>
+        <a href="/estatisticas" class="nav-link <?= ($this->request->getParam('pass')[0] ?? '') === 'estatisticas' ? 'active text-dark' : 'text-muted' ?> fw-medium" style="font-size: 0.9rem;">Estatísticas</a>
         <a href="#" class="nav-link text-muted fw-medium" style="font-size: 0.9rem;">FAQ</a>
     </div>
 
