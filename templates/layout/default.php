@@ -28,5 +28,7 @@
             </div>
         </div>
     </div>
+
+    <?= $this->Html->script('bootstrap.bundle.min.js') ?>
 </body>
 </html>
