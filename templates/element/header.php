@@ -10,9 +10,10 @@
     </div>
 
     <div class="d-none d-lg-flex gap-4">
-        <a href="<?= $this->Url->build('/') ?>" class="nav-link <?= ($this->request->getParam('pass')[0] ?? '') !== 'estatisticas' ? 'active text-dark' : 'text-muted' ?> fw-medium" style="font-size: 0.9rem;">Início</a>
-        <a href="<?= $this->Url->build('/estatisticas') ?>" class="nav-link <?= ($this->request->getParam('pass')[0] ?? '') === 'estatisticas' ? 'active text-dark' : 'text-muted' ?> fw-medium" style="font-size: 0.9rem;">Estatísticas</a>
-        <a href="#" class="nav-link text-muted fw-medium" style="font-size: 0.9rem;">FAQ</a>
+        <?php $currentPass = $this->request->getParam('pass')[0] ?? 'home'; ?>
+        <a href="<?= $this->Url->build('/') ?>" class="nav-link <?= $currentPass === 'home' ? 'active text-dark' : 'text-muted' ?> fw-medium" style="font-size: 0.9rem;">Início</a>
+        <a href="<?= $this->Url->build('/estatisticas') ?>" class="nav-link <?= $currentPass === 'estatisticas' ? 'active text-dark' : 'text-muted' ?> fw-medium" style="font-size: 0.9rem;">Estatísticas</a>
+        <a href="<?= $this->Url->build('/faq') ?>" class="nav-link <?= $currentPass === 'faq' ? 'active text-dark' : 'text-muted' ?> fw-medium" style="font-size: 0.9rem;">FAQ</a>
     </div>
 
     <div>
