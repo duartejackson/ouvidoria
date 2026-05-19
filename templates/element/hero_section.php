@@ -37,7 +37,7 @@
     </div>
 
     <!-- Regulamentação Local -->
-    <div class="d-flex align-items-center mb-4">
+    <div class="d-flex justify-content-center mb-4">
         <button type="button" class="btn btn-outline-primary rounded-pill px-4 py-2 fw-medium d-inline-flex align-items-center gap-2" data-bs-toggle="modal" data-bs-target="#regulamentacaoModal">
             <i class="bi bi-file-earmark-pdf"></i> Regulamentação Local
         </button>
