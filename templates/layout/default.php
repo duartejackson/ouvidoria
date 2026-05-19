@@ -40,5 +40,6 @@
 
     <?= $this->Html->script('bootstrap.bundle.min.js') ?>
     <script src="<?= $this->Url->build('/js/bootstrap.bundle.min.js') ?>"></script>
+    <script src="https://cdn.userway.org/widget.js" data-account="ADgT6uGEor"></script>
 </body>
 </html>
