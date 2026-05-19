@@ -7,7 +7,7 @@ $this->assign('title', 'Estatísticas - Ouvidoria Digital');
         <div class="mb-5">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="/" class="text-muted text-decoration-none"><i class="bi bi-house-door-fill"></i> Portal</a></li>
+                    <li class="breadcrumb-item"><a href="<?= $this->Url->build('/') ?>" class="text-muted text-decoration-none"><i class="bi bi-house-door-fill"></i> Portal</a></li>
                     <li class="breadcrumb-item active fw-medium" aria-current="page">Estatísticas</li>
                 </ol>
             </nav>
