@@ -30,5 +30,6 @@
     </div>
 
     <?= $this->Html->script('bootstrap.bundle.min.js') ?>
+    <script src="<?= $this->Url->build('/js/bootstrap.bundle.min.js') ?>"></script>
 </body>
 </html>
