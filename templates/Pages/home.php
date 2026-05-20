@@ -46,7 +46,7 @@ $getSetting = function($key, $default = '') use ($siteSettings) {
                     <div class="tab-content" id="ouvidoriaTabsContent">
                         <!-- Nova Manifestação Tab -->
                         <div class="tab-pane fade show active" id="nova" role="tabpanel" aria-labelledby="nova-tab">
-                            <?= $this->Form->create(null, ['class' => 'needs-validation']) ?>
+                            <?= $this->Form->create(null, ['url' => ['controller' => 'Manifestacoes', 'action' => 'add'], 'type' => 'file', 'class' => 'needs-validation']) ?>
                                 <div class="row g-3 mb-4">
                                     <div class="col-md-6">
                                         <?= $this->Form->control('tipo_manifestacao', [
@@ -128,7 +128,7 @@ $getSetting = function($key, $default = '') use ($siteSettings) {
                                     <i class="bi bi-cloud-arrow-up-fill fs-3 text-secondary mb-2 d-block"></i>
                                     <div class="fw-bold">Anexar arquivos (opcional)</div>
                                     <div class="small text-muted mb-3">PDF, JPG, PNG até 10MB</div>
-                                    <input type="file" class="d-none" id="fileUpload" multiple>
+                                    <input type="file" name="arquivo" class="d-none" id="fileUpload">
                                     <label for="fileUpload" class="btn btn-outline-secondary btn-sm">Selecionar arquivos</label>
                                 </div>
 
@@ -150,7 +150,7 @@ $getSetting = function($key, $default = '') use ($siteSettings) {
                                 <h5>Consulte o andamento da sua manifestação</h5>
                                 <p class="text-muted mb-4">Insira o número de protocolo gerado no momento do registro e o CPF/CNPJ (se identificado) para acompanhar o status.</p>
 
-                                <?= $this->Form->create(null, ['class' => 'max-w-md mx-auto']) ?>
+                                <?= $this->Form->create(null, ['url' => ['controller' => 'Manifestacoes', 'action' => 'consulta'], 'class' => 'max-w-md mx-auto']) ?>
                                     <div class="mb-3 text-start">
                                         <?= $this->Form->control('protocolo', [
                                             'label' => ['text' => 'Número do Protocolo', 'class' => 'form-label fw-bold small'],

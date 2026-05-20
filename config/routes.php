@@ -11,8 +11,6 @@ return static function (RouteBuilder $routes) {
         $builder->connect('/faq', ['controller' => 'Pages', 'action' => 'display', 'faq']);
         $builder->connect('/admin', ['controller' => 'Settings', 'action' => 'edit']);
 
-        $builder->connect('/pages/*', 'Pages::display');
-
         $builder->fallbacks();
     });
 };
