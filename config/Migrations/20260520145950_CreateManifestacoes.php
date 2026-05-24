@@ -70,6 +70,6 @@ class CreateManifestacoes extends BaseMigration
             'limit' => 255,
             'null' => true,
         ]);
-        $table->create();
+        $table->addTimestamps()->create();
     }
 }
